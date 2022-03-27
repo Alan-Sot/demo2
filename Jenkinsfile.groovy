@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'slave1'
+        label 'first_job'
     }
     triggers {
         pollSCM('*****')
